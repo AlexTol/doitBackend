@@ -5,3 +5,5 @@ var port = process.env.PORT || 8080; // set our port
 
 //import configs const
 const db = require("./config/sequelize");
+
+var router = express.Router();
