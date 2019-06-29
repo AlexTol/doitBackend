@@ -7,3 +7,7 @@ var port = process.env.PORT || 8080; // set our port
 const db = require("./config/sequelize");
 
 var router = express.Router();
+
+router.post("/test", (req: any, res: any, next: any) => {
+  //test regex
+});
