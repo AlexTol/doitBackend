@@ -1,4 +1,5 @@
 class PhoneNumber {
+  countryCode: string;
   number: string;
 
   constructor(message: string) {

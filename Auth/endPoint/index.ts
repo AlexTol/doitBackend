@@ -9,5 +9,5 @@ const db = require("./config/sequelize");
 var router = express.Router();
 
 router.post("/test", (req: any, res: any, next: any) => {
-  //test regex
+  var re = new RegExp("(d{3})-(d{3})-(d{4})");
 });
